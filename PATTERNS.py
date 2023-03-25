@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[42]:
-
 
 input="TitTat"
 for j in range(1,len(input)):
@@ -15,8 +10,6 @@ for i in range(maximum):
     print(str1[0:i+1]+str2[0:i+1])
 
 
-# In[43]:
-
 
 input="BreakingBad"
 for j in range(1,len(input)):
@@ -27,10 +20,14 @@ str2=input[split:].upper()
 maximum=max(len(str1),len(str2))
 for i in range(maximum):
     print(str1[0:i+1]+str2[0:i+1])
+    
+Output:    
 
-
-# In[ ]:
-
-
-
-
+BB
+BRBA
+BREBAD
+BREABAD
+BREAKBAD
+BREAKIBAD
+BREAKINBAD
+BREAKINGBAD
